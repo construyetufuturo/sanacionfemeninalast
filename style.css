@@ -168,7 +168,6 @@ header{
 .video-conteiner{
     width: 52%;
     margin: 0 auto ;
-    box-shadow: rgba(113, 233, 221) 0px 2px 8px 0px;
     border-radius: 20px;
     
 }
@@ -1711,6 +1710,10 @@ footer{
     .contenedor-video .encabezado{
         width: 85%;
     }
+    .video-section, .instructora-oficial {
+        background-size: contain; /* Cambiar el tamaño de la imagen para que se ajuste al contenedor */
+        background-repeat: repeat-y;
+    }
 
     
     
@@ -1826,6 +1829,7 @@ footer{
         padding: 5px 5px;
     
     }
+    
 
 }
 @media screen and (max-width: 300px) {
