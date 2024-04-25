@@ -26,7 +26,8 @@
     --bg:#25344f;
     /* --bg:#f2f2f2; */
     --btn-color: #FC2947;
-    --title-color: #fb4409;
+    /* --title-color: #fb4409; */
+    --title-color: #e82f6d;
     --redexclusive : rgb(204,0,8) ;
     --img-scale: 1.001;
     --amarillo :#f1b510;
@@ -82,7 +83,7 @@ header{
 .post-video-section .barra-up{
     width: 100%;
     height: 1px;
-    background-color: #fb4409;
+    background-color: var(--title-color);
     /* box-shadow: rgba(0, 0, 0) 0px 22px 70px 4px; */
     
 }
@@ -136,7 +137,7 @@ header{
 }
 
 .video-section h2{
-    color: #fb4409;
+    color: var(--title-color);
     letter-spacing: 1px;
     text-transform: uppercase;
     font-family: 'Oswald','Poppins', sans-serif;
@@ -159,7 +160,7 @@ header{
 .encabezado h4{
     font-size: 24px;
     padding-top: 0px;
-    color: #fb4409;
+    color:var(--title-color);
     text-shadow: 0px 0px 5px #0c0e0b;
 
 }
@@ -214,9 +215,9 @@ header{
     margin-top: 1.25rem;
     padding: 1.2rem 0;
     color: #f3f3f3;
-    background-image: linear-gradient(#ff4704, #af1919);
+    background-image: linear-gradient(var(--title-color), #b52058)    ;
     border-width: .1rem;
-    border-color: #880f01;
+    border-color: #b52058;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-size: 1.3rem;
@@ -225,13 +226,13 @@ header{
     text-transform: uppercase;
 }
 .contenedor-oferta .button-box-oferta :hover{
-    background: #ff4704;
+    background: var(--title-color);
     color: #fff;
-    border-color: #ff4704;
-    box-shadow: 0 0 5px #ff4704,
-              0 0 25px #ff4704,
-              0 0 50px #ff4704,
-              0 0 100px #ff4704;
+    border-color: var(--title-color);
+    box-shadow: 0 0 5px var(--title-color),
+              0 0 25px var(--title-color),
+              0 0 50px var(--title-color),
+              0 0 100px var(--title-color);
 }
 
 /* CALL TO ACTOIN */
@@ -291,7 +292,8 @@ header{
 }
 .contenedor .ofertamensaje{
     padding: 1rem 0;
-    color: aqua;
+    /* color: aqua; */
+    color: var(--title-color);
     font-size: 2rem;
     text-align: center;
 }
@@ -1096,7 +1098,8 @@ border-radius: 16px;
   .ribbon span {
     width: 225px;
     height: 43px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    background-color: var(--title-color);
     position: absolute;
     transform: rotate(-45deg);
     right: -20px;
@@ -1250,7 +1253,7 @@ border-radius: 16px;
     font-family:   'Poppins',Arial,sans-serif;
     font-weight: 600;
     padding-bottom: 12px;
-    color: #fb4409;
+    color: var(--title-color);
     text-align: center;
 }
 
@@ -1813,7 +1816,7 @@ footer{
         width: 100%;
     }
     .contenedor-oferta .button-call{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .confirmation-text-3{
         font-size: .6rem;
@@ -1916,6 +1919,9 @@ footer{
         min-height: 120px;
         
         
+    }
+    .contenedor-oferta .button-call{
+        font-size: 0.9rem;
     }
 }
 
