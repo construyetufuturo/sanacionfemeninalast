@@ -215,9 +215,9 @@ header{
     margin-top: 1.25rem;
     padding: 1.2rem 0;
     color: #f3f3f3;
-    background-image: linear-gradient(var(--title-color), #b52058)    ;
+    background-image: linear-gradient(green, #156e15)    ;
     border-width: .1rem;
-    border-color: #b52058;
+    border-color: #104610;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-size: 1.3rem;
@@ -226,13 +226,13 @@ header{
     text-transform: uppercase;
 }
 .contenedor-oferta .button-box-oferta :hover{
-    background: var(--title-color);
+    background: green;
     color: #fff;
-    border-color: var(--title-color);
-    box-shadow: 0 0 5px var(--title-color),
-              0 0 25px var(--title-color),
-              0 0 50px var(--title-color),
-              0 0 100px var(--title-color);
+    border-color: green;
+    box-shadow: 0 0 5px green,
+              0 0 25px green,
+              0 0 50px green,
+              0 0 100px green;
 }
 
 /* CALL TO ACTOIN */
