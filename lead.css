@@ -141,7 +141,18 @@ header{
 }
 
 .video-section h2{
-    color: var(--title-color);
+    background-image: linear-gradient(
+	to right,
+	#462523 0,
+       	#cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#462523 100%
+	);
+   color:transparent;
+   -webkit-background-clip:text;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-family: 'Oswald','Poppins', sans-serif;
@@ -164,7 +175,19 @@ header{
 .encabezado h4{
     font-size: 24px;
     padding-top: 0px;
-    color:var(--title-color);
+    background-image: linear-gradient(
+	to right,
+	#462523 0,
+       	#cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#462523 100%
+	);
+   color:transparent;
+   -webkit-background-clip:text;
+    letter-spacing: 1px;
     text-shadow: 0px 0px 5px #0c0e0b;
 
 }
@@ -218,10 +241,20 @@ header{
     align-items: center;
     margin-top: 1.25rem;
     padding: 1.2rem 0;
-    color: #f3f3f3;
-    background-image: linear-gradient(green, #156e15)    ;
+    color: #000;
+    background-image: linear-gradient(
+	to right,
+	#462523 0,
+       	#cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#462523 100%
+	);
+   /* color:transparent; */
     border-width: .1rem;
-    border-color: #104610;
+    border-color: #462523 ;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-size: 1.3rem;
@@ -338,7 +371,7 @@ footer{
 .logo{
     width: 50px ;
     height: 50px;
-    background: url(img/logosimpleblancoevolucion.png) no-repeat;
+    background: url(img/logoev.png) no-repeat;
     background-size: contain;
     border-radius: 50% ;
     /* border: 1px solid #fff; */
@@ -414,47 +447,14 @@ footer{
     
 }
 @media screen and (max-width:800px) {
-    .menu-nav{
-        width: 50vw;
-    }
+    
     .video-section h2{
         font-size: 18px;
     }
     .video-conteiner{
         width: 95%;
     }
-    .icon-menu{
-        position: relative;
-        top: 20px;
-        right: 20px;
-        height: 25px;
-        width: 22px;
-    }
-    /* .titulo{
-        font-size: 40px;
-    } */
-    .contenedor-servicio img{
-        width: 80%;
-        margin-bottom: 40px;
-    }
-    .contenedor .container-hand img{
-        margin-bottom: 0;
-    }
-    .checklist-servicio{
-        width: 80%;
-    }
-    .service{
-        margin-bottom: 30px ;
-    }
-    .agregar-imagen{
-        width: 80%;
-    }
-    .img-galeria{
-        width: 45%;
-    }
-    .cont-expert{
-        width: 80%;
-    }
+    
     .social-media-icon{ /*new line*/
         margin-left: 0;
     }
