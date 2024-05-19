@@ -258,6 +258,29 @@ header{
     box-shadow: 0 0 8rem -.5rem rgba(216, 22, 0, 0);
     text-transform: uppercase;
 }
+.contenedor-oferta .button-call-ws{
+    width: 100%;
+    opacity: 1;
+    cursor: pointer;
+    background-color: green;
+    border: .05rem solid #d4da2b;
+    border-radius: .6875rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+    padding: 1.2rem 0;
+    color: #000;
+   
+   /* color:transparent; */
+    border-width: .1rem;;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    box-shadow: 0 0 8rem -.5rem rgba(216, 22, 0, 0);
+    text-transform: uppercase;
+}
 
 
 /* CALL TO ACTOIN */
